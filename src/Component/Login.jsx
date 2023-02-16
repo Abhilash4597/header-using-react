@@ -36,6 +36,7 @@ class Login extends Component {
       <>
         <div className="outer_container">
           <div className="form_container">
+            <h1 onClick={this.props.handling}>X</h1>
             <h2>Log in</h2>
             <form onSubmit={this.handleSubmit}>
               <label htmlFor="email">Email</label>

@@ -10,10 +10,10 @@ class Header extends Component {
   render() {
     return (
       <>
-        <header className="container">
+        <Header className="container">
           <LeftHeader />
-          <RightHeader />
-        </header>
+          <RightHeader handling={this.props.handling} />
+        </Header>
       </>
     );
   }
